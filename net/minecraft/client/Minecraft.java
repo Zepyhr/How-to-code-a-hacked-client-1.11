@@ -199,6 +199,7 @@ import org.lwjgl.opengl.GLContext;
 import org.lwjgl.opengl.OpenGLException;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.glu.GLU;
+import uk.co.hexeption.thx.Thx;
 import uk.co.hexeption.thx.event.events.EventKeyboard;
 import uk.co.hexeption.thx.event.events.EventMiddleClick;
 import uk.co.hexeption.thx.event.events.EventTick;
@@ -594,6 +595,8 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         this.effectRenderer = new ParticleManager(this.world, this.renderEngine);
         this.checkGLError("Post startup");
         this.ingameGUI = new GuiIngame(this);
+
+        Thx.INSTANCE.startClient();
 
         if (this.serverName != null)
         {

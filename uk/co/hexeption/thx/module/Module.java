@@ -25,7 +25,7 @@ public class Module {
      * Category
      */
     public enum Catergoy {
-        COMTBAT(0), MOVEMENT(0), RENDER(0), WORLD(0), MISC(0), PLAYER(0), GUI(0);
+        COMTBAT(0x3ABDFF), MOVEMENT(0xF8FF1F), RENDER(0x48FF1F), WORLD(0xCF1FFF), MISC(0xFFC100), PLAYER(0x00FFEC), GUI(0xE800D5);
 
         public int color;
 

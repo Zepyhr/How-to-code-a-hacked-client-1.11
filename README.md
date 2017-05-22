@@ -20,7 +20,7 @@ Credits to
 # iYoshiMC
 ---------------
 
-###########Developers
+Developers
 ---------------
 # Zepyhr
 ---------------

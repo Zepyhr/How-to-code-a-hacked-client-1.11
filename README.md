@@ -14,7 +14,13 @@ The Source code is based from the Hexeption Series
 
 ----------
 
+Credits to
+---------------
+# Hexeption
+# iYoshiMC
+---------------
 
-
-###### Hexeption 
-
+###########Developers
+---------------
+# Zepyhr
+---------------
